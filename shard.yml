@@ -1,8 +1,9 @@
 name: geoip
-version: 0.3.0
+version: 0.3.1
 
 authors:
-  - delef <delef@ya.ru>
+  - emanzx
+  - emanzx@gmail.com
 
 crystal: 0.22.0
 
