@@ -50,7 +50,7 @@ dependencies:
 ## Usage
 
 ```crystal
-require "geoip2"
+require "geoip"
 ```
 
 TODO: Write usage instructions here
