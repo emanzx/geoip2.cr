@@ -16,7 +16,9 @@ module GeoIP2
       @data["country"]["names"][locale].as_s
     end
 
-    def iso_code
+    def iso_code(locale : String? = nil)
+      locale ||= @locale
+      @data["country"]["iso_code"][locale].as_s
     end
 
     def data
